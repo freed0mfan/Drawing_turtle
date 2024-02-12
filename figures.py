@@ -7,7 +7,7 @@ def prlgrm(x, y, length, height, acute_angle, color='BLACK', angle_round=0):
     t.down()
     t.color(color)
     t.fillcolor(color)
-    t.lt(angle_round)
+    t.rt(angle_round)
     t.begin_fill()
     for i in range(2):
         t.fd(length)
